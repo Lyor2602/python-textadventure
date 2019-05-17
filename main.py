@@ -309,14 +309,111 @@ def cinema():
         else:
             print(option + " is not an option")
 
+
+def swimclothing():
+  print("you walk to the clothing section")
+  print("you think to yourself: why wouldn't I walk around in some swimwear?")
+  print("You look at the racks")
+  print("you are facing a hard decission")
+  print("do you want to wear a speedo(type: speedo) or a bikini(type: bikini)")
+  while True:
+    option = input("> ")
+    if option == "speedo":
+      print("you take a speedo of the mannequin")
+      print("you try the speedo on")
+      print("wait what is that?!")
+      print("you find a key in the speedo")
+      i.append('key-n')
+      print("You walk back to the metro station where it all started")
+      start()
+    elif option == "bikini"
+
+
+def swim():
+  print("You walk up to the swimattributes")
+  print("Do you want to go to to the water toy's(type: watertoy)or go to the swimclothing(type: swimclothing)")
+  while True:
+    option = input ("> ")
+    if option == "watertoy":
+      print("You go to the watertoy's and when you arrive you see something on the ground")
+      print("It's a gun, a watergun. You put the watergun in your inventory")
+      i.append('watergun')
+      decathlon()
+    elif option == "swimclothing":
+      clothing()
+    elif option == "i":
+      print(i)
+    else:
+       print(option + " is not an option")
+    
+  
+
+def box():
+  print("You chose to hide behind a boxing sack")
+  print("You hear footsteps passing by")
+  print("you are too scared to take a peak")
+  print("you wait about 5 minutes until you are sure there is no one around")
+  print("you come out of your hiding spot and walk back to the toy's")
+  print("there's nothing here")
+  print("do you choose to walk back to the starting point of your adventure(type: start)")
+  print("or do you want to go the swimming atributes(type: swim)")
+  while True:
+    option = input("> ")
+    if option == "start":
+      start()
+    elif option == "swim":
+      swim()
+    elif option == "i":
+      print(i)
+    else:
+      print(option + " is not an option")
+
+
+def toy():
+  print("You walk up to the toy's")
+  print("suddenly you hear footsteps")
+  print("you start to sprint towards the gym equipment")
+  print("the footsteps are becomming louder and louder")
+  print("Choose fast hide behind a boxing sack(type: box) or between the mannequins(type: mannequin)")
+  while True:
+    option = input("> ")
+    if option == "box":
+      box()
+    elif option == "mannequin":
+      print("You sprint towards the mannequins")
+      print("the footsteps are coming towards you faster and faster")
+      print("you stay as queiet and steady as possible")
+      print("you see a hamster walking by")
+      print("suddenly his cute little nose lifts up and he turns his head")
+      print("you lock eyes")
+      print("he starts charging towards you")
+      print("he bites your leg and rips it off with one movement")
+      print("the last thing you see is the cute pink nose of the hamster coming towards you")
+      death()
+    elif option == "i":
+      print(i)
+    else:
+      print(option + " is not an option")
+
+
 def decathlon():
   print("You go on the escelator and start going down, the decathlon is completely empty")
   print("You can get anything you want from the store")
-  print("Do you want to go towards the toy's (type: toy's) or go to the swimattributes (type: swim)")
+  print("Do you want to go towards the toy's (type: toy) or go to the swimattributes (type: swim)")
   while True:
     option = input("> ")
-    
-    
+    while True:
+      if option == "toy":
+        toy()
+      elif option == "swim":
+        swim()
+      elif option == "i":
+        print(i)
+      else:
+        print(option + "is not an option")
+
+def central():
+  print("You are walking towards central station")
 
 def start():
     print("what do you want to do, go up the stairs in the direction of the cinema(type: cinema), go back in to the metro station(type: metro)")
